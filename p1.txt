@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="with=device-width,initial-scale=1.0">
+	<title>PROJECT</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kaisei+Tokumin&display=swap" rel="stylesheet">
+<link rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css">
+</head>
+<body>
+     <section class="header">
+     	<nav>
+     		<a href="index.html"><img src="11.jpg"></a>
+     		<div class="nav-links" id="navLinks">
+     			<i class="fas fa-times" onclick="hideMenu()"></i>
+     		 <ul>
+     		 	<li><a href="">HOME</a></li>
+     		 	<li><a href="">ABOUT</a></li>
+     		 	<li><a href="">FLAT TYPES</a></li>
+     		 	<li><a href="">ENVIORNMENT</a></li>
+     		 	<li><a href="">CONTACT</a></li>
+     		 </ul>
+     		</div>
+     		<i class="fas fa-bars" onclick="showMenu()"></i>
+     	</nav>
+
+     	<div class="text-box">
+     		<h1>ETHNIC ERA SOCIETY</h1>
+     		<h2>You can find the best flats with lot of fun here with full details.
+     		Top class flats at reasonable price.<br>HURRY UP !!!!!!!!</h2>
+     		<a href="" class="hero-btn">VISIT US TO KNOW MORE</a>
+     	</div>
+     </section>
+
+     <!---top-rated hotels--->
+     <section class="TOP-RATED-HOTELS">
+     	<h1>TYPES OF FLATS</h1>
+     	<p>We give you a legendary welcome, every time you come back.</p>
+
+     	<div class="row">
+     		<div class="TOP-RATED-HOTELS-col">
+     			<h3>3 BHK</h3>
+     			<p>You Can Afford To Dwell Well.
+A Higher Quality of Living.
+Apartments Tailored to Your Highest Standards.
+At Last, This Is What You’ve Been Searching For.<br>
+     				<b>RATE:-STARTING FROM-1CR</b></p>
+     		</div>
+     		<div class="TOP-RATED-HOTELS-col">
+     			<h3>2 BHK</h3>
+     			<p>Everything You Need. All Right Here.
+Experience the [ETHNIC ERA] Lifestyle.
+Express Your Individuality at [ETHNIC ERA].
+Landmark Living on The Avenue.<br>
+     				<b>RATE:-STARTING FROM-75K</b></p>
+     		</div>
+     		<div class="TOP-RATED-HOTELS-col">
+     			<h3>1 BHK</h3>
+     			<p>Luxury All Around.
+Luxury is Built-In. Not Tacked On.
+Luxury, Location, and Convenience.
+Modern Amenities. Urban Location. Sophisticated Style.<br>
+     				<b>RATE:-STARTING FROM-50K</b></p>
+     		</div>
+     	</div>
+     </section>
+
+     <!----ENVIORNMENT----->
+     <section class="ENVIORNMENT">
+     	<h1>OUR BEAUTIFUL GALLERY</h1>
+     	<p>Nothing makes you feel better than when you get into a Iconic [ETHNIC ERA] Living.</p>
+     	<div class="row">
+     		<div class="env-col">
+     			<img src="8.jpg">
+     			<div class="layer">
+     				<h3>COMMUNITY HALL</h3>
+     			</div>
+     		</div>
+     			<div class="env-col">
+     			<img src="5.jpg">
+     			<div class="layer">
+     				<h3>A LITTLE RESTRAUNT</h3>
+     			</div>
+     		</div>
+     			<div class="env-col">
+     			<img src="4.jpg">
+     			<div class="layer">
+     				<h3>BUILDING</h3>
+     			</div>
+     		</div>
+     	</div>
+     </section>
+<!-----FACILITIES---->
+<section class="facilities">
+	<h1>OUR FACILITIES</h1>
+	<p>AC gym,Community hall,....And MANY MORE</p>
+	<div class="row">
+		<div class="facilities-col">
+			<img src="13.jpg">
+	          <h3>GYM</h3>
+	          <p>The last three or four reps is what makes the muscle grow. This area of pain divides a champion from someone who is not a champion.</p>
+		</div>
+		<div class="facilities-col">
+			<img src="14.jpg">
+	          <h3>SWIMMING POOL</h3>
+	          <p>LETS SWIMMMMM!!!!!!!!!!!!!!!</p>
+		</div>
+		<div class="facilities-col">
+			<img src="16.jpg">
+	          <h3>COMMUNITY HALL</h3>
+	          <p>PARTY ... PARTY ... PARTY</p>
+		</div>
+	</div>
+</section>
+
+<!----test----->
+<section class="test">
+	<h1>FEEDBACK OF THE BUYERS</h1>
+	<p>Read as much as you can...you will surely be able to understand our society..</p>
+	<div class="row">
+		<div class="test-col">
+			<img src="a.jpg">
+			<div>
+				<p>This builder did a great job in our company. They built one of our office block. They took very low price. They took only 7 months to make a two floared building.</p>
+				<h3>SIMRAN SINGH</h3>
+			</div>
+		</div>
+		<div class="test-col">
+			<img src="c.jpg">
+			<div>
+				<p>They privide very good service. The quality of their work is very good. .</p>
+				<h3>ADIT HAZRE</h3>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!----calltoaction---->
+<section class="call">
+	 <h1>Enroll for our flats <br> Anywhere from the world</h1>
+	 <a href="" class="hero-btn">CONTACT US</a>
+</section>
+
+<!-----footer----->
+<section class="footer">
+	<h4>ABOUT US</h4>
+	<p>WE MAKE SUCH SOCITIES TO MAKE YOUR LIFESTYLE EASY<br>
+		CONTACT NO:-9259687410<br>
+	EMAIL:-ethinicera12@gmail.com</p>
+</section>
+     <!------JavaSCript for toggle menu ------>
+     <script >
+     	var navLinks = document.getElementById('navLinks');
+
+     	function showMenu()
+     	{
+     		navLinks.style.right ="0";
+     	}
+
+     	function hideMenu()
+     	{
+     		navLinks.style.right ="-200";
+     	}
+     	
+     </script>
+</body>
+</html>
